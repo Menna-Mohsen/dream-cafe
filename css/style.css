@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    
+}
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7))
+    ,url(../images/head.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+.nav{
+    float:right
+}
+
+ul{
+    text-decoration: none; 
+
+    list-style: none;
+}
+
+li{
+    text-decoration: none; 
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    color: #b17da2;
+    text-decoration:underline;
+}
+.navbar{
+    background-color:#835C3B;
+    opacity: 70%;
+}
+
+#the_sign{
+   
+    background-color: #FFF5EE    ;
+    text-transform: capitalize;  
+    opacity: 95%;
+}
+
+
+.con{ 
+    background-image:linear-gradient(rgba(53, 48, 48, 0.618),rgba(0, 0, 0, 0.514)), url(../images/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    text-transform: capitalize;
+}
+.con h2{
+    
+    padding-left:200px ;
+  font-size: 40px;
+  color: rgb(195, 202, 209);
+  line-height: 40px;
+}
+.con h4{
+    padding-left:200px ;
+  font-size: 20px;
+  color: rgb(112, 125, 136);
+}
+
+
+
+.card{
+   margin-bottom: 40px;
+   size: 200px;
+   background-color: #835C3B 
+   ;
+  
+   color: antiquewhite;
+
+}
+
+
+#login{
+    background-image:linear-gradient(rgba(39, 36, 36, 0.226),rgba(0, 0, 0, 0.404)), url(../images/log.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    text-transform: capitalize;  
+    line-height: 40px;
+} 
+
+.btn{
+    background-color: #FFF5EE   ;
+    opacity: 70%;
+    text-transform: capitalize;  
+    float: right;
+    margin-right: 15px;
+padding: 10px 20px;
+border-radius: 8px;
+text-decoration:none;
+   
+}
+
+
+
+#menu{
+    background-image:linear-gradient(rgba(7, 7, 7, 0.459),rgba(0, 0, 0, 0.333)), url(../images/menu.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    text-transform: capitalize;  
+    
+}
+
+
+
+
+#menu .head{
+    background-size: 50px;
+background-color:#FFF5EE  ;
+border-radius: 8px;
+color:#835C3B;
+}
+
+#menu .btn{
+
+   
+    background-color: #FFF5EE    ;  
+    text-transform: capitalize;  
+    opacity: 70%;
+    color:#835C3B;
+   
+}
+
+#cart{
+    background-image:linear-gradient(rgba(7, 7, 7, 0.459),rgba(0, 0, 0, 0.333)), url(../images/cart.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    text-transform: capitalize;  
+      
+}
+
+#cart .card{
+    background-color: #FFF5EE;
+    color:#835C3B;
+}
+
+footer{
+    background-color:#835C3B 
+    ;
+    opacity: 70%;
+}
